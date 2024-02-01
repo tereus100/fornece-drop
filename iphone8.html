@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand text-danger"  style="font-size:40px;" href="index.html">Home</a><br>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Login<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="cadastro.html">Cadastro<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produtos.html">Produtos</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search">
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+      
+      <div class="container-fluid ">
+          <div class="row">
+         <div class="col-lg-3 pt-3 bg-dark text-center ">
+            <ul class=" nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link text-white active" href="#"><h3>Painel admin</h3></a>
+                  </li>
+                  <br>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" 
+                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Painel do revendedor 
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="vendas.html">Cadastrar Vendas</a>
+                      <a class="dropdown-item" href="cliente.html">Cadastrar clientes</a>
+                      <a class="dropdown-item" href="admin.html">admin</a>
+                    </div>
+                  </div>
+                 <br>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" 
+                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Produtos
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="iphone13.html">Iphone 13 Pro MAX 256GB</a>
+                      <a class="dropdown-item" href="iphone8.html">Iphone 8 plus 64GB</a>
+                      
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white active " href="#">Agendar contatos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white active" href="#">Minhas vendas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white active" href="#">Chat</a>
+                </li>
+              </ul>
+
+         </div>
+         
+         <div class="col-lg-9 bg-white">
+           
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                   data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" 
+                   aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>          
+                        </div>
+              </nav>
+             <div class="container-fluid">
+
+                 <div class="row">
+                    <div class="col-lg-4">
+                       <img src="imagens/iphone5.png" width="100%" height="600"/>
+                    </div>
+                    <div class="col-lg-4 mt-5">
+                        <p>Novo | 451 vendidos</p>
+                        <h3>Apple iPhone 8 plus (64GB) <br>- Grafite</h3>
+                        <img src="imagens/estrela.png" alt="Portifolio"
+                         class="rounded-circle" style="width: 25px;">
+                        <img src="imagens/estrela.png" alt="Portifolio"
+                         class="rounded-circle" style="width: 25px;">
+                        <img src="imagens/estrela.png" alt="Portifolio"
+                         class="rounded-circle" style="width: 25px;">
+                        <img src="imagens/estrela.png" alt="Portifolio"
+                         class="rounded-circle" style="width: 25px;">
+                        <img src="imagens/estrela.png" alt="Portifolio"
+                         class="rounded-circle" style="width: 25px;"> 236 opniões<br><br>
+                         <s>R$ 2.</s>
+                         <h1> RS 2.090 <span style="color:green;font-size:25px;"> 15% OFF</span></h1>
+                        <p>em <span style="color:green;font-size:25px;">12x R$174,17 sem juros</p>
+                            <p style="font-weight:500;">memória interna: 64gb</p>
+                                <button type="button" class="btn btn-danger rounded col-8">Comprar agora</button>
+                                <button type="button" class="btn btn-dark col-8 mt-2">Adicionar ao carrinho</button>
+                            </div>
+                            <div class="col-lg-4 mt-5">
+                                <h4>Descriçao do produto</h4>
+                                <ul type="disc">
+                                    <li>Dispositivo desbloqueado para que você escolha a companhia telefônica de sua preferência.</li><br>
+                                    <li>Tela IPS de 5.5".</li><br>
+                                    <li>Tem 2 câmeras traseiras de 12Mpx/12Mpx.</li><br>
+                                    <li>Câmera frontal de 7Mpx.</li><br>
+                                    <li>Processador Apple A11 Bionic de 2.4GHz com 3GB de RAM.</li><br>
+                                    <li>Memória interna de 64GB.</li><br>
+                                    <li>Resistente à água.</li><br>
+                                    <li>Com sensor de impressão digital.</li><br>
+                                    <li>Resistente à poeira.</li><br>
+                                    <br><br><br><br><br>
+                            </ul>
+                            </div>
+                            </div>
+                    </div>
+
+
+                 </div>
+                
+                 <footer class="bg-dark">
+                  <!-- As a link -->
+                <div class="d-flex justify-content-center">
+                <nav class="navbar navbar-light text-center bg-dark">
+                <a class="navbar-brand text-light text-center" href="#"> &copy 2022 Copyright: Fornece Drop</a>
+                </nav>
+                </div>
+                </footer>
+      
+    </body>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+     
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    </html>
