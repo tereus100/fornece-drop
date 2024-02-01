@@ -3,7 +3,7 @@ function logar() {
  const email = document.getElementById("email").value
  const senha = document.getElementById("senha").value
 
-   if(email == "admin@gmail.com" && senha == "admin"){
+    if(email == "admin@gmail.com" && senha == "adminprincipal"){
     alert("Administrador logado com sucesso !");
     location.href = "produtos.html"
     location.href = "cadastro.html"
